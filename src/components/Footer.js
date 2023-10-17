@@ -7,7 +7,7 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+      <footer className="footer">
       <Container>
         <Row className="align-items-center">
           <MailchimpForm />
@@ -24,5 +24,6 @@ export const Footer = () => {
         </Row>
       </Container>
     </footer>
+    
   )
 }

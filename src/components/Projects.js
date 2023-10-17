@@ -17,6 +17,7 @@ import projImg14 from "../assets/img/projects/portofolio2.jpg";
 import projImg15 from "../assets/img/projects/landing pag2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
+import "../App.css";
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -101,7 +102,8 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <div>
+      <section className="project" id="project">
       <Container>
         <Row>
           <Col size={12}>
@@ -150,7 +152,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
+    </div>
   )
 }
